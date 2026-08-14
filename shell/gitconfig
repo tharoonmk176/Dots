@@ -1,0 +1,19 @@
+[user]
+	name = tharoonmk176
+	email = tharoon176@gmail.com
+
+[init]
+	defaultBranch = main
+
+[alias]
+	lg = log --oneline --graph --decorate --all
+	aa = add -A
+	amend = commit --amend --no-edit
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	df = diff
+	dc = diff --cached
+	undo = reset --soft HEAD~1
+	pushf = push --force-with-lease

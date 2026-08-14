@@ -1,0 +1,20 @@
+#
+# ~/.bashrc
+#
+export EDITOR="nvim"
+export VISUAL="nvim"
+eval "$(starship init bash)"
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls -la --color=auto'
+alias grep='grep --color=auto'
+alias ff='fastfetch'
+
+PS1='[\u@\h \W]\$ '
+
+eval "$(dircolors -b ~/.dircolors)"
+
+export PATH="$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.kimi-code/bin:$PATH"
+source /usr/share/undo/undo.bash

@@ -1,0 +1,10 @@
+export EDITOR="nvim"
+export VISUAL="nvim"
+eval "$(starship init zsh)"
+
+alias ls='ls -la --color=auto'
+alias ff='fastfetch'
+
+eval "$(dircolors -b ~/.dircolors)"
+
+export PATH="$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.kimi-code/bin:$PATH"

@@ -1,0 +1,1 @@
+require("lua.animations.fast")
